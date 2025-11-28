@@ -1,0 +1,32 @@
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Build
+target/
+build/
+*.class
+
+# Environment variables (NEVER COMMIT)
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Maven
+.m2/
+dependency-reduced-pom.xml
+
+# Tomcat
+.classpath
+.project
+.settings/
